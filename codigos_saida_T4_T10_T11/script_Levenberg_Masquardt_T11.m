@@ -45,3 +45,9 @@ view(net)
 %figure, plotregression(t,y)
 %figure, plotfit(net,x,t)
 
+
+figure(1);
+plot(y, 'm+','MarkerSize',20);
+hold on;
+plot(t, 'b','MarkerSize',20);
+legend('Output', 'Target');
